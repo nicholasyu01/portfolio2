@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lab 6 Nicholas Yu</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <!-- <img id='background' src="C:\Users\Nicholas\Desktop\IMG_1628.jpg"/> -->
+
+    <div id="banner">
+    </div>
+
+    <div id="profile">
+        <img id='pic' src="C:\Users\Nicholas\Desktop\nick git portfolio\master\nick_grad_headshot.jpg" alt="headshot"/>
+    </div>
+
+    <div id="button">
+    </div>
+
+    <div id="skillhead">
+    </div>
+
+    <div id="projects">
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        /*<![CDATA[*/
+        $(document).ready(function () {
+
+            // var background = $('background').attr('src')[null];
+            // var background = "C:\Users\Nicholas\Desktop\IMG_1628.jpg";
+            // $("body").css("background-image", "src="body")");
+            // $("body").css("background-image", "url("+ background +")");
+            // $("body").css("background-image", background);
+//             background-color: rgba(200,100,0,.5); // Tint color
+//   background-blend-mode: multiply;
+
+            var background = "newyork.jpg";
+            $("body").css("background-image", "url(" + background + ")");
+            $("body").css("object-fit", "contain");
+            $("body").css("background-color", "rgba(200, 100, 0, 0.5)");
+            $("body").css("background-blend-mode", "multiply");
+
+
+
+            // $("body").css("background-color", "blue");
+
+            //banner
+            $("#banner").append("<div id='hamburger'></div>");            
+            // $("#banner").css("background-color", "red");
+            $("#banner").css("width", "100%");
+            $("#banner").css("height", "50px");
+
+            $("#hamburger").append("<div class='bars'></div>");            
+            $("#hamburger").append("<div class='bars'></div>"); 
+            $("#hamburger").append("<div class='bars'></div>"); 
+
+
+
+            $("#banner").append("<div id='title'>Portfolio</div>"); 
+            $("#hamburger").css("float", "left");
+            $("#hamburger").css("width", "50px");
+
+            $('#hamburger').click(function () { alert('Hiiiiiiiiiiiii'); });
+
+            $(".bars").css("width", "35px");
+            $(".bars").css("height", "5px");
+            $(".bars").css("background-color", "black");
+            $(".bars").css("margin", "6px");
+
+
+            $("#title").append("<div id='circles'></div>");
+            $("#circles").append("<div class='dots'></div>");
+            $("#circles").append("<div class='dots'></div>");
+            $("#circles").append("<div class='dots'></div>");
+            $("#title").css("text-align", "center");
+            $("#title").css("font-size", "35px");
+
+            $("#circles").css("float", "right");
+            $("#circles").css("width", "50px");
+
+            $(".dots").css("width", "15px");
+            $(".dots").css("height", "15px");
+            $(".dots").css("border-radius", "50%");
+            $(".dots").css("background-color", "black");
+            $(".dots").css("display", "inline-block");
+
+
+
+
+            
+
+            //profile
+            var pic = $('#pic').attr('src')[null];
+            $("#profile").append(pic);
+            // $("#profile").css("background-color", "green");
+            $("#profile").css("width", "100%");
+            $("#profile").css("height", "300px");
+            $("#profile").css("text-align", "center");
+
+            $("#pic").after("<div id='name'>Nicholas Yu</div>");
+            $("#pic").css("text-align", "center");
+            $("#pic").css("border-radius", "50%");
+            $("#pic").css("width", "200px");
+            $("#pic").css("height", "200px");
+            $("#pic").css("object-fit", "cover");
+            
+
+            $("#name").after("<div id='bio'>BCIT CST term 1 student interested in full stack software engineering.</div>");
+            $("#name").css("text-align", "center");
+            $("#name").css("font-size", "50px");
+            $("#name").css("font-weight", "50px");
+
+            $("#bio").css("text-align", "center");
+            $("#bio").css("font-size", "20px");
+            $("#bio").css("background-color", "rgba(225,225,225,0.5)");
+            $("#bio").css("margin-left", "300px");
+            $("#bio").css("margin-right", "300px");
+
+
+
+
+            //button
+            $("#button").append("<span id='resume'>RESUME</span>");
+            $("#button").css("width", "100%");
+            $("#button").css("text-align", "center");
+            $("#button").css("margin-bottom", "25px");
+
+            $("#resume").css("background-color", "yellow");
+            $("#resume").css("width", "20%");
+            $("#resume").css("height", "30px");
+            $("#resume").css("padding", "10px");
+
+
+            //skills
+            $("#skillhead").append("<div id='skillconstain'>skills</div>");
+            $("#skillconstain").css("font-size","50px");
+
+            $("#skillconstain").after("<div id='skills'></div>");
+            // $("#skillhead").prepend("<div id='fronthead'>FRONT</div>");
+            $("#skills").append("<div id='fronthead'><b>FRONT</b></div>");
+            $("#skills").append("<div id='front'>HTML/CSS</div>");
+            $("#front").append("<div>javascript</div>");
+            $("#front").append("<div>jQuery</div>");
+
+            $("#skillhead").css("background-color", "white");
+            $("#skillhead").css("width", "auto");
+            $("#skillhead").css("height", "150px");
+            $("#skillhead").css("margin", "20px");
+            $("#skills").css("column-count", "2");
+            $("#skills").css("text-align", "center");
+
+
+
+            $("#skills").append("<div id='backhead'><b>BACK</b></div>");
+            $("#skills").append("<div id='back'>Java</div>");
+            $("#skills").append("<div id='back'>under construction</div>");
+            $("#back").append("<div>(more coming soon)</div>");
+
+
+            //projects
+            $("#projects").append("<h1 id='proj1'>Projects</h1>");
+            $("#projects").css("background-color", "white");
+            $("#projects").css("width", "auto");
+            $("#projects").css("height", "200px");
+            $("#projects").css("margin", "20px");
+
+            $("#projects").append("<div id='tutor'>Tutor finder web app in BCIT CST 1930 gorup project class.</div>");
+
+            // $("#proj1").css("color", "white");
+
+
+
+
+
+        });
+        /*]]>*/
+    </script>
+
+</body>
+
+</html>
