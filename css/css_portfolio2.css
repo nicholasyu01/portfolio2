@@ -1,3 +1,6 @@
+
+
+}
 .title{
     /* background-color: lawngreen; */
     padding-left: 40px;
@@ -28,8 +31,8 @@
     justify-content: flex-end;
     font-size: 20px;
     align-items: flex-end;
-
-
+    
+    
 }
 .nav-items{
     /* background-color: purple; */
@@ -54,7 +57,7 @@
     width: 100%;
     height: 10%;
     display:flex;
-
+    
 }
 #headshot_container{
     /* background-color: salmon; */
@@ -75,7 +78,7 @@
     /* background-color: rosybrown; */
     font-size: 25px;
     padding: 50px;
-
+    
 }
 #landing-btns-container{
     /* background-color: skyblue; */
@@ -125,7 +128,7 @@
     /* background-color: green; */
     width: 100%;
     height: 10%;
-
+    
 }
 
 #skills-container{
@@ -138,7 +141,7 @@
     padding-top:20px;
     padding-bottom:20px;
     
-
+    
 }
 
 .skills-title{
@@ -157,7 +160,7 @@
     /* background-color: lightblue; */
     width: 100%;
     height: 10%;
-
+    
 }
 #education-container{
     /* background-color: lightgray; */
@@ -177,14 +180,14 @@
 
 }
 .education-classes{
-
+    
 }
 /********************************************/
 #experience{
     /* background-color: blue; */
     width: 100%;
     height: 10%;
-
+    
 }
 #experience-container{
     /* background-color: lightgray; */
@@ -198,23 +201,23 @@
 }
 .experience-title{
     font-size:25px;
-
+    
 }
 .experience-name{
-
+    
 }
 .experience-date{
-
+    
 }
 .experience-bio{
-
+    
 }
 /********************************************/
 #projects{
     /* background-color: pink; */
     width: 100%;
     height: 10%;
-
+    
 }
 #projects-container{
     /* background-color: lightgray; */
@@ -234,7 +237,7 @@
 }
 
 .projects-tools{
-
+    
 }
 /*****************************/
 
@@ -253,8 +256,8 @@
     width: 55px;
     object-fit: cover;
 }
+/****************************************/
 
-/**********************************************/
 
 @media screen and (max-width: 1000px) {
     .title{
@@ -523,8 +526,5 @@
     object-fit: cover;
     margin-right: 20px;
 }
-
-/**********************************************/
-
 
 }
