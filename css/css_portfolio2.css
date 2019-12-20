@@ -11,7 +11,6 @@
 #nav{
     /* background-color: red; */
     width: 100%;
-    height: 10%;
     display: flex;
     align-items: flex-end;
 
@@ -253,4 +252,279 @@
     height: 55px;
     width: 55px;
     object-fit: cover;
+}
+
+/**********************************************/
+
+@media screen and (max-width: 1000px) {
+    .title{
+        /* background-color: lawngreen; */
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 60px;
+    
+    }
+    /* ******************/
+    #nav{
+        /* background-color: red; */
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        text-align: center;
+    }
+    #name{
+        /* background-color: rosybrown; */
+        width:100%;
+        font-size: 100px;
+        
+    }
+    #nav_items_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        align-items: center;
+    
+    }
+    .nav-items{
+        /* background-color: purple; */
+        margin: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        text-decoration: none;
+        color: black;
+    
+    }
+    .nav-items img{
+       display: none;
+    }
+   /********************************************/
+
+#landing{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#headshot_container{
+    /* background-color: salmon; */
+    text-align: center;
+}
+
+#headshot_container img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    
+    }
+
+#landing-rightside{
+    margin-top: 20px;
+}
+#landing-bio{
+    /* background-color: rosybrown; */
+    font-size: 40px;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+
+}
+#landing-btns-container{
+    /* background-color: skyblue; */
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+#landing-btns-container a img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    /* margin-left: 0px; */
+    margin: 10px;
+}
+
+
+/********************************************/
+#about{
+    /* background-color: orange; */
+    width: 100%;
+}
+#about-container{
+    /* background-color: lightgrey; */
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: fit-content;
+    text-align: center;
+    
+}
+#about-bio{
+    /* background-color: lightpink; */
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    font-size: 40px;
+}
+#hockey_img{
+    /* background-color: lightpink; */
+}
+#hockey_img img{
+    height: auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    /* padding-right:20px; */
+}
+
+ /********************************************/
+#skills{
+    /* background-color: green; */
+    width: 100%;
+}
+
+#skills-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left:40px;
+    margin-right: 40px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+
+}
+
+.skills-title{
+    /* background-color: red; */
+    /* padding:20px; */
+    font-size: 40px;
+}
+
+.skills-title ~ button{
+    margin:5px;
+    font-size: 30px;
+}   
+   
+/********************************************/
+#education{
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 10%;
+
+}
+#education-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.education-name{
+    font-size:50px;
+
+}
+.education-date{
+    font-size: 40px;
+
+}
+.education-classes{
+    font-size: 40px;
+}
+
+/********************************************/
+#experience{
+    /* background-color: blue; */
+    width: 100%;
+
+}
+#experience-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.experience-title{
+    font-size:50px;
+
+}
+.experience-name{
+    font-size: 40px;
+}
+.experience-date{
+    font-size: 40px;
+
+}
+.experience-date ~ button{
+    /* height: 50px; */
+    font-size: 30px;
+}
+
+/********************************************/
+#projects{
+    /* background-color: pink; */
+    width: 100%;
+    height: 10%;
+
+}
+#projects-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.projects-name{
+    font-size:50px;
+}
+.projects-bio{
+    font-size: 40px;
+}
+
+.projects-tools > h5 > span{
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#projects-container > button{
+    font-size: 30px;
+}
+
+/*****************************/
+
+#footer-container{
+    display:flex;
+    justify-content: space-between;
+}
+#copyright-container{
+    padding: 40px;
+}
+#footer-btns-container{
+    padding:40px;
+}
+#footer-btns-container img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/**********************************************/
+
+
 }
