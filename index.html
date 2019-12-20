@@ -1,186 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Nicholas Yu</title>
+    <title>Nicholas Yu | Software Engineer</title>
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/css_portfolio2.css" />
+    <script src="./js/js_portfolio2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
 </head>
-
 <body>
-    <div id="banner">
+    <div id="nav">
+        <div id="name">Nicholas Yu</div>
+        <div id="nav_items_container">
+            <a class="nav-items" href="#about" target="_blank">About</a>
+            <a class="nav-items" href="#skills">Skills</a>
+            <a class="nav-items" href="#education">Education</a>
+            <a class="nav-items" href="#experience">Experience</a>
+            <a class="nav-items" href="#projects">Projects</a>
+            <a class="nav-items" id="resume" href="https://drive.google.com/file/d/1Wf89_HSyP-_wGnAZj0bGabwF2Ldv7Jjt/view?usp=sharing"><img src="./images/resume.png" alt="resume"></a>
+        </div>
     </div>
 
-    <div id="profile">
-        <img id='pic' src="https://raw.githubusercontent.com/nicholasyu01/portfolio2/master/nick_grad_headshot.jpg" alt="headshot"/>
+    <div id="landing">
+        <div id="headshot_container">
+            <img src="./images/nic_headshot_edit.jpg" alt="nick_headshot">
+        </div>
+        <div id="landing-rightside">
+            <div id="landing-bio">Hi I’m Nick!
+                <p>I am a first year student at BCIT studying Computer Systems Technology interested in full stack engineering.
+                </p></div>
+            <div id="landing-btns-container">
+                <a href="https://github.com/nicholasyu01"><img src="./images/git_icon.png" alt="git_icon"></a>
+                <a href="https://www.linkedin.com/in/nicholas-y/"><img src="./images/in_icon.png" alt="in_icon"></a>
+                <a href="https://drive.google.com/file/d/1Wf89_HSyP-_wGnAZj0bGabwF2Ldv7Jjt/view?usp=sharing"><img src="./images/resume.png" alt="resume"></a>
+            </div>
+
+        </div>
     </div>
 
-    <div id="button">
+    <div id="about">
+        <div class="title">About</div>
+        <div id="about-container">
+            <div id="about-bio">
+                <p>
+                    Besides school, my hobbies are playing sports, hanging out with friends and family, and spending time outdoors. 
+                    I grew up playing baseball and hockey and continue to play Jr B hockey for the Port Moody Panthers of the PJHL.
+
+                </p>
+                <p>
+                    Some of my interests are cars / motorcycles, photography, and outdoor activities. 
+                    I enjoy working on cars and one day hope to learn how to ride a motorcycle.
+                    Photography has always interested me as it can capture a moment in time and tell a story.
+                    All outdoor activities like, biking, hiking, and exploring have intrigued my interests.  
+                </p>
+                <button type="button" class="btn btn-outline-primary" href="goals.html">Goals</button>
+            </div>
+            <div id="hockey_img">
+                <img src="./images/nic_hockey.JPG" alt="nic_hockey">
+            </div>
+        </div>
     </div>
 
-    <div id="skillhead">
+    <div id="skills">
+        <div class="title">Skills</div>
+        <div id="skills-container">
+            <div class="skills-title">Languages / Frameworks</div>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Java</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>C</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Python</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Html / CSS</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>JavaScript</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>jQuery</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>NodeJS</button>
+
+            <div class="skills-title">Databases / Enviroments</div>
+            <button type="button" class="btn btn-lg btn-primary" disabled>SQL</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Firebase</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>MySQL</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Google Cloud</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>VSCode</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Eclipse</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>JUnit</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>GitHub</button>
+
+            <div class="skills-title">Other</div>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Agile</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>SDLC</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>Responsive</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>UI / UX</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>js DOM</button>
+            <button type="button" class="btn btn-lg btn-primary" disabled>ajax</button>
+        </div>
+    </div>
+
+    <div id="education">
+        <div class="title">Education</div>
+        <div id="education-container">
+            <div class="education-name">BCIT Computer Systems Technology </div>
+            <div class="education-date">Septemeber 2019 - March 2021</div>
+            <div class="education-classes">
+                <dt>Computer</dt>
+                <dd>-Object Oriented Programming (Java)</dd>
+                <dd>-Procedural (C)</dd>
+                <dd>-Intro to Web Development (Html / Css / JavaScript / NodeJS / ajax)</dd>
+                <dd>-Relational Database Systems</dd>
+                <dd>-Computer Organization / Architecture</dd>
+                <dt>Business</dt>
+                <dd>-Business Analysis</dd>
+                <dt>Math</dt>
+                <dd>-Applied Mathematics</dd>
+                <dd>-Descrete Mathematics</dd>
+                <dt>English</dt>
+                <dd>-Business Communications</dd>
+                <dd>-Technical Writing</dd>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience">
+        <div class="title">Experience</div>
+        <div id="experience-container">
+            <div class="experience-title">Internships</div>
+            <div class="experience-name">TBD</div>
+            <div class="experience-date"></div>
+            <div class="experience-bio"></div>
+            <div class="experience-title">Hackathons</div>
+            <div class="experience-name">UBC Local Hack Day</div>
+            <div class="experience-date">Decmeber 2019</div>
+            <button type="button" class="btn btn-outline-primary" href="https://nicholasyu01.github.io/HighFIveCounter/">High Five With Friends</button>
+        </div>
     </div>
 
     <div id="projects">
+        <div class="title">Projects</div>
+        <div id="projects-container">
+            <div class="projects-name">Website</div>
+            <div class="projects-bio">Created a personal website to display my accomplishments</div>
+            <div class="projects-tools">
+            <h5>  
+                <span class="badge badge-secondary">Html</span>
+                <span class="badge badge-secondary">Css</span>
+                <span class="badge badge-secondary">JavaScript</span>
+                <span class="badge badge-secondary">jQuery</span>
+                <span class="badge badge-secondary">GitHub</span>
+            </h5>
+            </div>
+            <button type="button" class="btn btn-outline-primary" href="https://nicholasyu01.github.io/portfolio2/">My Website</button>
+
+            <div class="projects-name">Tutor Finder</div>
+            <div class="projects-bio">School group project where we created a full stack web application that allows students to find tutors that meet their personal preferences</div>
+            <div class="projects-tools">
+                <h5>  
+                    <span class="badge badge-secondary">Html</span>
+                    <span class="badge badge-secondary">Css</span>
+                    <span class="badge badge-secondary">JavaScript</span>
+                    <span class="badge badge-secondary">jQuery</span>
+                    <span class="badge badge-secondary">FireBase</span>
+                    <span class="badge badge-secondary">Figma</span>
+                    <span class="badge badge-secondary">Trello</span>
+                    <span class="badge badge-secondary">GitHub</span>
+
+                </h5>
+            </div>
+            <button type="button" class="btn btn-outline-primary" href="https://project-8839510588664178667.firebaseapp.com/">Tutor Finder</button>
+
+            <div class="projects-name">High Five with Friends</div>
+            <div class="projects-bio">Created a High Five Counter, responsive web app, using Html, CSS, JavaScript, jQuery that promotes inclusivity</div>
+            <div class="projects-tools">
+                <h5>  
+                    <span class="badge badge-secondary">Html</span>
+                    <span class="badge badge-secondary">Css</span>
+                    <span class="badge badge-secondary">JavaScript</span>
+                    <span class="badge badge-secondary">jQuery</span>
+                    <span class="badge badge-secondary">GitHub</span>
+
+                </h5>
+            </div>
+            <button type="button" class="btn btn-outline-primary" href="https://nicholasyu01.github.io/HighFIveCounter/">High Five With Friends</button>
+
+        </div>
     </div>
 
-
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        /*<![CDATA[*/
-        $(document).ready(function () {
-
-            // var background = $('background').attr('src')[null];
-            // var background = "C:\Users\Nicholas\Desktop\IMG_1628.jpg";
-            // $("body").css("background-image", "src="body")");
-            // $("body").css("background-image", "url("+ background +")");
-            // $("body").css("background-image", background);
-//             background-color: rgba(200,100,0,.5); // Tint color
-//   background-blend-mode: multiply;
-
-            var background = "https://raw.githubusercontent.com/nicholasyu01/portfolio2/master/newyork.jpg";
-            $("body").css("background-image", "url(" + background + ")");
-            $("body").css("object-fit", "contain");
-            $("body").css("background-color", "rgba(200, 100, 0, 0.5)");
-            $("body").css("background-blend-mode", "multiply");
-
-
-
-            // $("body").css("background-color", "blue");
-
-            //banner
-            $("#banner").append("<div id='hamburger'></div>");            
-            // $("#banner").css("background-color", "red");
-            $("#banner").css("width", "100%");
-            $("#banner").css("height", "50px");
-
-            $("#hamburger").append("<div class='bars'></div>");            
-            $("#hamburger").append("<div class='bars'></div>"); 
-            $("#hamburger").append("<div class='bars'></div>"); 
-
-
-
-            $("#banner").append("<div id='title'>Portfolio</div>"); 
-            $("#hamburger").css("float", "left");
-            $("#hamburger").css("width", "50px");
-
-            $('#hamburger').click(function () { alert('Hiiiiiiiiiiiii'); });
-
-            $(".bars").css("width", "35px");
-            $(".bars").css("height", "5px");
-            $(".bars").css("background-color", "black");
-            $(".bars").css("margin", "6px");
-
-
-            $("#title").append("<div id='circles'></div>");
-            $("#circles").append("<div class='dots'></div>");
-            $("#circles").append("<div class='dots'></div>");
-            $("#circles").append("<div class='dots'></div>");
-            $("#title").css("text-align", "center");
-            $("#title").css("font-size", "35px");
-
-            $("#circles").css("float", "right");
-            $("#circles").css("width", "50px");
-
-            $(".dots").css("width", "15px");
-            $(".dots").css("height", "15px");
-            $(".dots").css("border-radius", "50%");
-            $(".dots").css("background-color", "black");
-            $(".dots").css("display", "inline-block");
-
-
-
-
-            
-
-            //profile
-            var pic = $('#pic').attr('src')[null];
-            $("#profile").append(pic);
-            // $("#profile").css("background-color", "green");
-            $("#profile").css("width", "100%");
-            $("#profile").css("height", "300px");
-            $("#profile").css("text-align", "center");
-
-            $("#pic").after("<div id='name'>Nicholas Yu</div>");
-            $("#pic").css("text-align", "center");
-            $("#pic").css("border-radius", "50%");
-            $("#pic").css("width", "200px");
-            $("#pic").css("height", "200px");
-            $("#pic").css("object-fit", "cover");
-            
-
-            $("#name").after("<div id='bio'>BCIT CST term 1 student interested in full stack software engineering.</div>");
-            $("#name").css("text-align", "center");
-            $("#name").css("font-size", "50px");
-            $("#name").css("font-weight", "50px");
-
-            $("#bio").css("text-align", "center");
-            $("#bio").css("font-size", "20px");
-            $("#bio").css("background-color", "rgba(225,225,225,0.5)");
-            $("#bio").css("margin-left", "300px");
-            $("#bio").css("margin-right", "300px");
-
-
-
-
-            //button
-            $("#button").append("<span id='resume'>RESUME</span>");
-            $("#button").css("width", "100%");
-            $("#button").css("text-align", "center");
-            $("#button").css("margin-bottom", "25px");
-
-            $("#resume").css("background-color", "yellow");
-            $("#resume").css("width", "20%");
-            $("#resume").css("height", "30px");
-            $("#resume").css("padding", "10px");
-
-
-            //skills
-            $("#skillhead").append("<div id='skillconstain'>skills</div>");
-            $("#skillconstain").css("font-size","50px");
-
-            $("#skillconstain").after("<div id='skills'></div>");
-            // $("#skillhead").prepend("<div id='fronthead'>FRONT</div>");
-            $("#skills").append("<div id='fronthead'><b>FRONT</b></div>");
-            $("#skills").append("<div id='front'>HTML/CSS</div>");
-            $("#front").append("<div>javascript</div>");
-            $("#front").append("<div>jQuery</div>");
-
-            $("#skillhead").css("background-color", "white");
-            $("#skillhead").css("width", "auto");
-            $("#skillhead").css("height", "150px");
-            $("#skillhead").css("margin", "20px");
-            $("#skills").css("column-count", "2");
-            $("#skills").css("text-align", "center");
-
-
-
-            $("#skills").append("<div id='backhead'><b>BACK</b></div>");
-            $("#skills").append("<div id='back'>Java</div>");
-            $("#skills").append("<div id='back'>under construction</div>");
-            $("#back").append("<div>(more coming soon)</div>");
-
-
-            //projects
-            $("#projects").append("<h1 id='proj1'>Projects</h1>");
-            $("#projects").css("background-color", "white");
-            $("#projects").css("width", "auto");
-            $("#projects").css("height", "200px");
-            $("#projects").css("margin", "20px");
-
-            $("#projects").append("<div id='tutor'>Tutor finder web app in BCIT CST 1930 gorup project class.</div>");
-
-            // $("#proj1").css("color", "white");
-
-
-
-
-
-        });
-        /*]]>*/
-    </script>
-
+    <div id="footer-container">
+        <div id="copyright-container">Copyright 2019 Nicholas Yu</div>
+        <div id="footer-btns-container">
+            <a href="https://github.com/nicholasyu01"><img src="./images/git_icon.png" alt="git_icon"></a>
+            <a href="https://www.linkedin.com/in/nicholas-y/"><img src="./images/in_icon.png" alt="in_icon"></a>
+            <a href="https://drive.google.com/file/d/1Wf89_HSyP-_wGnAZj0bGabwF2Ldv7Jjt/view?usp=sharing"><img src="./images/resume.png" alt="resume"></a>
+        </div>
+    </div>
 </body>
-
 </html>
+

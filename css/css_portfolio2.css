@@ -1,0 +1,256 @@
+.title{
+    /* background-color: lawngreen; */
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 40px;
+
+}
+
+
+/**************************************/
+#nav{
+    /* background-color: red; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+
+}
+#name{
+    /* background-color: rosybrown; */
+    width:100%;
+    font-size: 50px;
+    padding-left: 20px;
+    
+}
+#nav_items_container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: flex-end;
+
+
+}
+.nav-items{
+    /* background-color: purple; */
+    padding-right: 40px;
+    padding-bottom:10px;
+    text-decoration: none;
+    color: black;
+
+}
+.nav-items img{
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+}
+
+#nav-resume ~ img{
+    margin-left: 20px;
+}
+/********************************************/
+#landing{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 10%;
+    display:flex;
+
+}
+#headshot_container{
+    /* background-color: salmon; */
+}
+#headshot_container img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+    
+}
+
+#landing-rightside{
+    margin-top: 20px;
+}
+#landing-bio{
+    /* background-color: rosybrown; */
+    font-size: 25px;
+    padding: 50px;
+
+}
+#landing-btns-container{
+    /* background-color: skyblue; */
+    padding-left: 20px;
+    margin-left: 20px;
+}
+#landing-btns-container a img{
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+
+/********************************************/
+#about{
+    /* background-color: orange; */
+    width: 100%;
+}
+#about-container{
+    /* background-color: lightgrey; */
+    border:1px solid grey;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: fit-content;
+    
+}
+#about-bio{
+    /* background-color: lightpink; */
+    width: 70%;
+    padding: 40px;
+    height: 100%;
+}
+#hockey_img{
+    /* background-color: lightpink; */
+}
+#hockey_img img{
+    height: 350px;
+    padding-top:20px;
+    padding-bottom:20px;
+    /* padding-right:20px; */
+}
+
+/********************************************/
+#skills{
+    /* background-color: green; */
+    width: 100%;
+    height: 10%;
+
+}
+
+#skills-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left:40px;
+    margin-right: 40px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+
+}
+
+.skills-title{
+    /* background-color: red; */
+    /* padding:20px; */
+    font-size: 30px;
+}
+
+.skills-title ~ button{
+    margin:5px;
+}
+
+
+/********************************************/
+#education{
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 10%;
+
+}
+#education-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.education-name{
+    font-size:25px;
+
+}
+.education-date{
+
+}
+.education-classes{
+
+}
+/********************************************/
+#experience{
+    /* background-color: blue; */
+    width: 100%;
+    height: 10%;
+
+}
+#experience-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.experience-title{
+    font-size:25px;
+
+}
+.experience-name{
+
+}
+.experience-date{
+
+}
+.experience-bio{
+
+}
+/********************************************/
+#projects{
+    /* background-color: pink; */
+    width: 100%;
+    height: 10%;
+
+}
+#projects-container{
+    /* background-color: lightgray; */
+    border:1px solid grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.projects-name{
+    font-size:25px;
+}
+.projects-bio{
+
+}
+
+.projects-tools{
+
+}
+/*****************************/
+
+#footer-container{
+    display:flex;
+    justify-content: space-between;
+}
+#copyright-container{
+    padding: 30px;
+}
+#footer-btns-container{
+    padding:30px;
+}
+#footer-btns-container img{
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+}
