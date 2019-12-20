@@ -46,9 +46,6 @@
     object-fit: cover;
 }
 
-#nav-resume ~ img{
-    margin-left: 20px;
-}
 /********************************************/
 #landing{
     /* background-color: yellow; */
@@ -57,9 +54,7 @@
     display:flex;
     
 }
-#headshot_container{
-    /* background-color: salmon; */
-}
+
 #headshot_container img{
     border-radius: 50%;
     object-fit: cover;
@@ -111,13 +106,12 @@
     padding: 40px;
     height: 100%;
 }
-#hockey_img{
-    /* background-color: lightpink; */
-}
+
 #hockey_img img{
     height: 350px;
     padding-top:20px;
     padding-bottom:20px;
+    padding-right: 20px;
     /* padding-right:20px; */
 }
 
@@ -174,12 +168,7 @@
     font-size:25px;
 
 }
-.education-date{
 
-}
-.education-classes{
-    
-}
 /********************************************/
 #experience{
     /* background-color: blue; */
@@ -201,15 +190,7 @@
     font-size:25px;
     
 }
-.experience-name{
-    
-}
-.experience-date{
-    
-}
-.experience-bio{
-    
-}
+
 /********************************************/
 #projects{
     /* background-color: pink; */
@@ -230,13 +211,7 @@
 .projects-name{
     font-size:25px;
 }
-.projects-bio{
 
-}
-
-.projects-tools{
-    
-}
 /*****************************/
 
 #footer-container{
@@ -255,96 +230,170 @@
     object-fit: cover;
 }
 /****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
 
 
 @media screen and (max-width: 1000px) {
+#nav{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+
+}
+#name{
+    /* background-color: rosybrown; */
+    width:100%;
+    font-size: 50px;
+    padding-left: 0px;
+    text-align: center;
+    
+}
+#nav_items_container{
+    /* background-color: coral; */
+    text-align: center; 
+    font-size: 100%;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+    
+}
+.nav-items{
+    /* background-color: purple; */
+    padding-right: 0px;
+    padding-bottom:0px;
+    
+    text-decoration: none;
+    color: black;
+
+    margin:10px;
+
+    font-size: 100%;
+
+
+}
+.nav-items img{
+    display: none;
+}
+
+
+}
+
+
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+/****************************************/
+
+
+@media screen and (max-width: 669px) {
     .title{
         /* background-color: lawngreen; */
-        padding-left: 40px;
+        padding-left: 20px;
         padding-top: 20px;
-        font-size: 60px;
+        font-size: 40px;
     
     }
-    /* ******************/
     #nav{
         /* background-color: red; */
         display: flex;
-        align-items: flex-end;
         flex-direction: column;
-        text-align: center;
+    
     }
     #name{
         /* background-color: rosybrown; */
         width:100%;
-        font-size: 100px;
+        font-size: 50px;
+        padding-left: 0px;
+        text-align: center;
         
     }
     #nav_items_container{
+        /* background-color: coral; */
+        text-align: center; 
+        font-size: 100%;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 40px;
-        align-items: center;
-    
+        justify-content: space-around;
+        
     }
     .nav-items{
         /* background-color: purple; */
-        margin: 15px;
-        padding-bottom: 15px;
         padding-right: 0px;
+        padding-bottom: 0px;
+        
         text-decoration: none;
         color: black;
     
+        margin: 0px;
+    
+        font-size: 100%;
+    
+    
     }
     .nav-items img{
-       display: none;
+        display: none;
     }
-   /********************************************/
-
+    
+    /********************************************/
 #landing{
     /* background-color: yellow; */
     width: 100%;
-    display: flex;
+    display:flex;
     flex-direction: column;
-}
-
-#headshot_container{
-    /* background-color: salmon; */
-    text-align: center;
+    text-align: center;    
 }
 
 #headshot_container img{
     border-radius: 50%;
     object-fit: cover;
-    height: 50%;
-    width: 50%;
+    height: 300px;
+    width: 300px;
     padding: 20px;
     
-    }
+}
 
 #landing-rightside{
-    margin-top: 20px;
+    text-align: start;
 }
 #landing-bio{
     /* background-color: rosybrown; */
-    font-size: 40px;
-    padding: 100px;
+    font-size: 25px;
+    padding: 30px;
     padding-top: 0px;
-    padding-bottom: 15px;
-
+    
 }
 #landing-btns-container{
+    text-align: center;
     /* background-color: skyblue; */
     padding-left: 0px;
     margin-left: 0px;
-    text-align: center;
 }
 #landing-btns-container a img{
-    height: 120px;
-    width: 120px;
+    height: 55px;
+    width: 55px;
     object-fit: cover;
-    /* margin-left: 0px; */
-    margin: 10px;
+    margin-left: 20px;
 }
 
 
@@ -357,10 +406,9 @@
     /* background-color: lightgrey; */
     border:1px solid grey;
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-direction: column-reverse;
-    margin-left: 40px;
-    margin-right: 40px;
-    height: fit-content;
     text-align: center;
     
 }
@@ -369,107 +417,82 @@
     width: 100%;
     padding: 20px;
     height: 100%;
-    font-size: 40px;
+    text-align: start;
 }
-#hockey_img{
-    /* background-color: lightpink; */
-}
+
 #hockey_img img{
-    height: auto;
+    height: 350px;
     padding-top:20px;
     padding-bottom:20px;
+    padding-right: 20px;
     /* padding-right:20px; */
 }
 
- /********************************************/
+/********************************************/
 #skills{
     /* background-color: green; */
     width: 100%;
+    height: 10%;
+    
 }
 
 #skills-container{
     /* background-color: lightgray; */
     border:1px solid grey;
-    margin-left:40px;
-    margin-right: 40px;
-    padding-left:40px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    padding:20px;
     
-
+    
 }
 
 .skills-title{
     /* background-color: red; */
     /* padding:20px; */
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .skills-title ~ button{
     margin:5px;
-    font-size: 30px;
-}   
-   
+}
+
+
 /********************************************/
 #education{
     /* background-color: lightblue; */
     width: 100%;
     height: 10%;
-
+    
 }
 #education-container{
     /* background-color: lightgray; */
     border:1px solid grey;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
 }
 .education-name{
-    font-size:50px;
+    font-size:25px;
 
-}
-.education-date{
-    font-size: 40px;
-
-}
-.education-classes{
-    font-size: 40px;
 }
 
 /********************************************/
 #experience{
     /* background-color: blue; */
     width: 100%;
-
+    height: 10%;
+    
 }
 #experience-container{
     /* background-color: lightgray; */
     border:1px solid grey;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
 }
 .experience-title{
-    font-size:50px;
-
-}
-.experience-name{
-    font-size: 40px;
-}
-.experience-date{
-    font-size: 40px;
-
-}
-.experience-date ~ button{
-    /* height: 50px; */
-    font-size: 30px;
+    font-size:25px;
+    
 }
 
 /********************************************/
@@ -477,52 +500,37 @@
     /* background-color: pink; */
     width: 100%;
     height: 10%;
-
+    
 }
 #projects-container{
     /* background-color: lightgray; */
     border:1px solid grey;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
 }
 .projects-name{
-    font-size:50px;
-}
-.projects-bio{
-    font-size: 40px;
-}
-
-.projects-tools > h5 > span{
-    font-size: 30px;
-    margin: 10px;
-    margin-left: 0px;
-}
-
-#projects-container > button{
-    font-size: 30px;
+    font-size:25px;
 }
 
 /*****************************/
 
 #footer-container{
     display:flex;
-    justify-content: space-between;
+    text-align: center;
+    flex-direction: column-reverse;
+
 }
 #copyright-container{
-    padding: 40px;
+    padding: 20px;
 }
 #footer-btns-container{
-    padding:40px;
+    padding:20px;
 }
 #footer-btns-container img{
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     object-fit: cover;
-    margin-right: 20px;
 }
 
 }
